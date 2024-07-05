@@ -5,15 +5,15 @@ import { useState } from 'react';
 const coursesData = [
   {
     course: 'Course 1',
-    subcourses: ['Subcourse 1.1', 'Subcourse 1.2', 'Subcourse 1.3'],
+    subcourses: ['Topic 1', 'Topic 2', 'Topic 3'],
   },
   {
     course: 'Course 2',
-    subcourses: ['Subcourse 2.1', 'Subcourse 2.2'],
+    subcourses: ['Topic 1', 'Topic 2'],
   },
   {
     course: 'Course 3',
-    subcourses: ['Subcourse 3.1', 'Subcourse 3.2', 'Subcourse 3.3', 'Subcourse 3.4'],
+    subcourses: ['Topic 1', 'Topic 2', 'Topic 3', 'Topic 4'],
   },
 ];
 export default function Home() {
